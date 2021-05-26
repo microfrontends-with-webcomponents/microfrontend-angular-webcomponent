@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#input-component {
+  display: none;
+}
+
+.content-text {
+  font: 300 14px "Calibri";
+  color: #5a5a5a;
+  align-self: center;
+  text-align: center;
+}
+.content-text p {
+  margin-bottom: 10px;
+}
+
+.content-text strong {
+  font: bold 15px "Calibri";
+}
+
+.content-text a,
+a:hover {
+  font: bold 14px "Calibri";
+  color: #8bac2a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.file-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-input-file {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #dedede 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  height: 150px;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.box-input-file svg {
+  color: #4073ff;
+  transition: ease 0.3s;
+}
+
+.box-input-file:hover svg {
+  transform: translateY(-5px);
+  transition: ease 0.2s;
+}
